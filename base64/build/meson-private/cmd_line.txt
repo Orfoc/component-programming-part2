@@ -1,0 +1,6 @@
+[options]
+b_coverage = true
+backend = ninja
+
+[properties]
+

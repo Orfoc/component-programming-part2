@@ -1,0 +1,1 @@
+[{"cmd": ["/home/duck_killer/base64/build/src/base64/base64_tets"], "env": {}, "name": "base64", "workdir": null, "timeout": 30, "suite": ["base64"], "is_parallel": true, "priority": 0, "protocol": "exitcode"}]

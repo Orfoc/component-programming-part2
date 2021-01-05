@@ -1,0 +1,1 @@
+[{"cmd": ["/home/duck_killer/second_task/build/src/vector/vector_test"], "env": {}, "name": "vector_tests", "workdir": null, "timeout": 30, "suite": ["vector"], "is_parallel": true, "priority": 0, "protocol": "exitcode"}]

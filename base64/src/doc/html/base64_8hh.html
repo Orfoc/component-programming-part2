@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>base64: Файл src/base64/base64.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">base64
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_9ab17fd7f07b28ef7164bcc825435f04.html">base64</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a> &#124;
+<a href="#func-members">Функции</a> &#124;
+<a href="#var-members">Переменные</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл base64.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>содержит функции кодинга декодинга  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;limits&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+</div>
+<p><a href="base64_8hh_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionbits24.html">bits24</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:aad1aa78eeea69ad6bd2374789cb22559"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#aad1aa78eeea69ad6bd2374789cb22559">char_to_index</a> (unsigned char ch)</td></tr>
+<tr class="separator:aad1aa78eeea69ad6bd2374789cb22559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a064919a26fcb4e996ef3e2d4a249010c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#a064919a26fcb4e996ef3e2d4a249010c">base64_encoded_size</a> (size_t len)</td></tr>
+<tr class="separator:a064919a26fcb4e996ef3e2d4a249010c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53c32c7462231b5bf9b39296010e852d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#a53c32c7462231b5bf9b39296010e852d">base64_encode</a> (const char *first, size_t n, char *result) noexcept</td></tr>
+<tr class="memdesc:a53c32c7462231b5bf9b39296010e852d"><td class="mdescLeft">&#160;</td><td class="mdescRight">кодирует строку в формате base64.  <a href="base64_8hh.html#a53c32c7462231b5bf9b39296010e852d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a53c32c7462231b5bf9b39296010e852d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87faf63e5e9a520827ff3f8b4192d391"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#a87faf63e5e9a520827ff3f8b4192d391">base64_max_decoded_size</a> (size_t len) noexcept</td></tr>
+<tr class="separator:a87faf63e5e9a520827ff3f8b4192d391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ca4ce03acc0203825a3fb2293a6aa9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#ad2ca4ce03acc0203825a3fb2293a6aa9">base64_decode</a> (const char *first, size_t n, char *result)</td></tr>
+<tr class="memdesc:ad2ca4ce03acc0203825a3fb2293a6aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">декодирует строку формата base64.  <a href="base64_8hh.html#ad2ca4ce03acc0203825a3fb2293a6aa9">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad2ca4ce03acc0203825a3fb2293a6aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Переменные</h2></td></tr>
+<tr class="memitem:a09eef597994289a310fe9b68015270ec"><td class="memItemLeft" align="right" valign="top">const unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#a09eef597994289a310fe9b68015270ec">base64_alphabet</a> [64]</td></tr>
+<tr class="separator:a09eef597994289a310fe9b68015270ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb92446d2c83d930769ecc011f3a5b2"><td class="memItemLeft" align="right" valign="top">const unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#a3eb92446d2c83d930769ecc011f3a5b2">base64_table</a> [128]</td></tr>
+<tr class="separator:a3eb92446d2c83d930769ecc011f3a5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4daeea8c4798fc06a10d9102a7d8c393"><td class="memItemLeft" align="right" valign="top">const unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base64_8hh.html#a4daeea8c4798fc06a10d9102a7d8c393">pad_character</a> = '='</td></tr>
+<tr class="separator:a4daeea8c4798fc06a10d9102a7d8c393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>содержит функции кодинга декодинга </p>
+</div><h2 class="groupheader">Функции</h2>
+<a id="ad2ca4ce03acc0203825a3fb2293a6aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2ca4ce03acc0203825a3fb2293a6aa9">&#9670;&nbsp;</a></span>base64_decode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t base64_decode </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>декодирует строку формата base64. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">first</td><td>указатель на массив содержащмй строку </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>длина входной строки, чтобы не вылези за ее пределы в памяти </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">result</td><td>строка размера base64_max_decoded_size, в которую пишется результат декодинга </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>возращает длину получившегося слова </dd></dl>
+
+</div>
+</div>
+<a id="a53c32c7462231b5bf9b39296010e852d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53c32c7462231b5bf9b39296010e852d">&#9670;&nbsp;</a></span>base64_encode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void base64_encode </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>кодирует строку в формате base64. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">first</td><td>казатель на массив содержащий строку </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>длина входной строки, чтобы не вылезти за преедлы в памяти </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">result</td><td>строка размера base64_encode_size, в которую пишется результат енкодинга </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a064919a26fcb4e996ef3e2d4a249010c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a064919a26fcb4e996ef3e2d4a249010c">&#9670;&nbsp;</a></span>base64_encoded_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t base64_encoded_size </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87faf63e5e9a520827ff3f8b4192d391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87faf63e5e9a520827ff3f8b4192d391">&#9670;&nbsp;</a></span>base64_max_decoded_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t base64_max_decoded_size </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad1aa78eeea69ad6bd2374789cb22559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad1aa78eeea69ad6bd2374789cb22559">&#9670;&nbsp;</a></span>char_to_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char char_to_index </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Переменные</h2>
+<a id="a09eef597994289a310fe9b68015270ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09eef597994289a310fe9b68015270ec">&#9670;&nbsp;</a></span>base64_alphabet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const unsigned char base64_alphabet[64]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Инициализатор</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="charliteral">&#39;A&#39;</span>, <span class="charliteral">&#39;B&#39;</span>, <span class="charliteral">&#39;C&#39;</span>, <span class="charliteral">&#39;D&#39;</span>, <span class="charliteral">&#39;E&#39;</span>, <span class="charliteral">&#39;F&#39;</span>, <span class="charliteral">&#39;G&#39;</span>, <span class="charliteral">&#39;H&#39;</span>, <span class="charliteral">&#39;I&#39;</span>, <span class="charliteral">&#39;J&#39;</span>, <span class="charliteral">&#39;K&#39;</span>, <span class="charliteral">&#39;L&#39;</span>, <span class="charliteral">&#39;M&#39;</span>, <span class="charliteral">&#39;N&#39;</span>,</div>
+<div class="line">    <span class="charliteral">&#39;O&#39;</span>, <span class="charliteral">&#39;P&#39;</span>, <span class="charliteral">&#39;Q&#39;</span>, <span class="charliteral">&#39;R&#39;</span>, <span class="charliteral">&#39;S&#39;</span>, <span class="charliteral">&#39;T&#39;</span>, <span class="charliteral">&#39;U&#39;</span>, <span class="charliteral">&#39;V&#39;</span>, <span class="charliteral">&#39;W&#39;</span>, <span class="charliteral">&#39;X&#39;</span>, <span class="charliteral">&#39;Y&#39;</span>, <span class="charliteral">&#39;Z&#39;</span>, <span class="charliteral">&#39;a&#39;</span>, <span class="charliteral">&#39;b&#39;</span>,</div>
+<div class="line">    <span class="charliteral">&#39;c&#39;</span>, <span class="charliteral">&#39;d&#39;</span>, <span class="charliteral">&#39;e&#39;</span>, <span class="charliteral">&#39;f&#39;</span>, <span class="charliteral">&#39;g&#39;</span>, <span class="charliteral">&#39;h&#39;</span>, <span class="charliteral">&#39;i&#39;</span>, <span class="charliteral">&#39;j&#39;</span>, <span class="charliteral">&#39;k&#39;</span>, <span class="charliteral">&#39;l&#39;</span>, <span class="charliteral">&#39;m&#39;</span>, <span class="charliteral">&#39;n&#39;</span>, <span class="charliteral">&#39;o&#39;</span>, <span class="charliteral">&#39;p&#39;</span>,</div>
+<div class="line">    <span class="charliteral">&#39;q&#39;</span>, <span class="charliteral">&#39;r&#39;</span>, <span class="charliteral">&#39;s&#39;</span>, <span class="charliteral">&#39;t&#39;</span>, <span class="charliteral">&#39;u&#39;</span>, <span class="charliteral">&#39;v&#39;</span>, <span class="charliteral">&#39;w&#39;</span>, <span class="charliteral">&#39;x&#39;</span>, <span class="charliteral">&#39;y&#39;</span>, <span class="charliteral">&#39;z&#39;</span>, <span class="charliteral">&#39;0&#39;</span>, <span class="charliteral">&#39;1&#39;</span>, <span class="charliteral">&#39;2&#39;</span>, <span class="charliteral">&#39;3&#39;</span>,</div>
+<div class="line">    <span class="charliteral">&#39;4&#39;</span>, <span class="charliteral">&#39;5&#39;</span>, <span class="charliteral">&#39;6&#39;</span>, <span class="charliteral">&#39;7&#39;</span>, <span class="charliteral">&#39;8&#39;</span>, <span class="charliteral">&#39;9&#39;</span>, <span class="charliteral">&#39;+&#39;</span>, <span class="charliteral">&#39;/&#39;</span></div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3eb92446d2c83d930769ecc011f3a5b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb92446d2c83d930769ecc011f3a5b2">&#9670;&nbsp;</a></span>base64_table</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const unsigned char base64_table[128]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Инициализатор</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    77,77,77,77,77,77,77,77,77,77,77,77,77,77,</div>
+<div class="line">    77,77,77,77,77,77,77,77,77,77,77,77,77,77,</div>
+<div class="line">    77,77,77,77,77,77,77,77,77,77,77,77,77,77,</div>
+<div class="line">    77,62,77,77,77,63,52,53,54,55,56,57,58,59,</div>
+<div class="line">    60,61,77,77,77,0,77,77,77,0,1,2,3,4,</div>
+<div class="line">    5,6,7,8,9,10,11,12,13,14,15,16,17,18,</div>
+<div class="line">    19,20,21,22,23,24,25,77,77,77,77,77,77,26,</div>
+<div class="line">    27,28,29,30,31,32,33,34,35,36,37,38,39,40,</div>
+<div class="line">    41,42,43,44,45,46,47,48,49,50,51,77,77,77,</div>
+<div class="line">    77,77,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4daeea8c4798fc06a10d9102a7d8c393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4daeea8c4798fc06a10d9102a7d8c393">&#9670;&nbsp;</a></span>pad_character</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const unsigned char pad_character = '='</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

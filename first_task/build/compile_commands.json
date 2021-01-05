@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/home/duck_killer/first_task/build",
+    "command": "c++ -Isrc/hello_world/88a7df3@@helloworld@exe -Isrc/hello_world -I../src/hello_world -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++2a -g -MD -MQ 'src/hello_world/88a7df3@@helloworld@exe/is_prime.cc.o' -MF 'src/hello_world/88a7df3@@helloworld@exe/is_prime.cc.o.d' -o 'src/hello_world/88a7df3@@helloworld@exe/is_prime.cc.o' -c ../src/hello_world/is_prime.cc",
+    "file": "../src/hello_world/is_prime.cc",
+    "output": "src/hello_world/88a7df3@@helloworld@exe/is_prime.cc.o"
+  },
+  {
+    "directory": "/home/duck_killer/first_task/build",
+    "command": "c++ -Isrc/hello_world/88a7df3@@helloworld@exe -Isrc/hello_world -I../src/hello_world -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++2a -g -MD -MQ 'src/hello_world/88a7df3@@helloworld@exe/main.cc.o' -MF 'src/hello_world/88a7df3@@helloworld@exe/main.cc.o.d' -o 'src/hello_world/88a7df3@@helloworld@exe/main.cc.o' -c ../src/hello_world/main.cc",
+    "file": "../src/hello_world/main.cc",
+    "output": "src/hello_world/88a7df3@@helloworld@exe/main.cc.o"
+  }
+]

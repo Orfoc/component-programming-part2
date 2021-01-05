@@ -1,0 +1,49 @@
+Build started at 2020-09-25T11:38:42.141702
+Main binary: /gnu/store/11l2qmzfgsp7k345mv6x1vn64q8330kw-python-wrapper-3.8.2/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /tmp/tasks/first_task
+Build dir: /tmp/tasks/first_task/bui.d
+Build type: native build
+Project name: hello_world
+Project version: 0.1.0
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /tmp/tasks/first_task/bui.d/meson-private/sanitycheckcpp.cc -o /tmp/tasks/first_task/bui.d/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /tmp/tasks/first_task/bui.d/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 10.2.0 "c++ (GCC) 10.2.0")
+C++ linker for the build machine: c++ ld.bfd 2.34
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /tmp/tasks/first_task/bui.d/meson-private/sanitycheckcpp.cc -o /tmp/tasks/first_task/bui.d/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /tmp/tasks/first_task/bui.d/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 10.2.0 "c++ (GCC) 10.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+
+src/hello_world/meson.build:1:0: ERROR: File main.cc does not exist.

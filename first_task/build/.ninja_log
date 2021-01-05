@@ -1,0 +1,17 @@
+# ninja log v5
+2	1171	1601022187138357659	src/hello_world/88a7df3@@helloworld@exe/main.cc.o	58f32f545cc8925
+1174	1504	1601022187434375569	src/hello_world/helloworld	f6da0d5023bc9dbf
+21	7974	1602776360465510256	build.ninja	36ed24e572c070f2
+3	1434	1602776529511758454	src/hello_world/88a7df3@@helloworld@exe/is_prime.cc.o	59241738e1617ccd
+1435	2024	1602776530095793886	src/hello_world/helloworld	9f98678add75f212
+4	1303	1602777445779304960	src/hello_world/88a7df3@@helloworld@exe/main.cc.o	58f32f545cc8925
+1	1500	1602833011343939883	build.ninja	36ed24e572c070f2
+4	1319	1602833531703485408	src/hello_world/88a7df3@@helloworld@exe/main.cc.o	58f32f545cc8925
+5	1111	1602834440326568650	src/hello_world/88a7df3@@helloworld@exe/main.cc.o	58f32f545cc8925
+1112	1381	1602834440602585302	src/hello_world/helloworld	8cb20cc0d0b0aa82
+4	1212	1602834806328756709	src/hello_world/88a7df3@@helloworld@exe/main.cc.o	58f32f545cc8925
+1213	1476	1602834806692778732	src/hello_world/helloworld	8cb20cc0d0b0aa82
+4	1129	1602835410135057282	src/hello_world/88a7df3@@helloworld@exe/main.cc.o	58f32f545cc8925
+1130	1473	1602835410515080314	src/hello_world/helloworld	8cb20cc0d0b0aa82
+5	1407	1602835487231731220	src/hello_world/88a7df3@@helloworld@exe/is_prime.cc.o	59241738e1617ccd
+1408	1687	1602835487563751282	src/hello_world/helloworld	8cb20cc0d0b0aa82

@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/home/duck_killer/base64/build",
+    "command": "c++ -Isrc/base64/b688c3f@@base64@exe -Isrc/base64 -I../src/base64 -Isrc -I../src -fdiagnostics-color=always --coverage -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++2a -g -MD -MQ 'src/base64/b688c3f@@base64@exe/main.cc.o' -MF 'src/base64/b688c3f@@base64@exe/main.cc.o.d' -o 'src/base64/b688c3f@@base64@exe/main.cc.o' -c ../src/base64/main.cc",
+    "file": "../src/base64/main.cc",
+    "output": "src/base64/b688c3f@@base64@exe/main.cc.o"
+  },
+  {
+    "directory": "/home/duck_killer/base64/build",
+    "command": "c++ -Isrc/base64/b688c3f@@base64_tets@exe -Isrc/base64 -I../src/base64 -Isrc -I../src -I/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/pkgconfig/../../include -fdiagnostics-color=always --coverage -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++2a -g -Wl,--start-group -lpthread -Wl,--end-group -DGTEST_HAS_PTHREAD=1 -MD -MQ 'src/base64/b688c3f@@base64_tets@exe/base64_test.cc.o' -MF 'src/base64/b688c3f@@base64_tets@exe/base64_test.cc.o.d' -o 'src/base64/b688c3f@@base64_tets@exe/base64_test.cc.o' -c ../src/base64/base64_test.cc",
+    "file": "../src/base64/base64_test.cc",
+    "output": "src/base64/b688c3f@@base64_tets@exe/base64_test.cc.o"
+  }
+]

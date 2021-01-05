@@ -1,0 +1,116 @@
+Log of Meson test suite run on 2020-12-29T09:58:14.377963
+
+Inherited environment: SHELL='/bin/bash' XDG_CONFIG_DIRS='/home/duck_killer/.guix-profile/etc/xdg:/run/current-system/profile/etc/xdg' PKG_CONFIG_PATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/pkgconfig' BASH_LOADABLES_PATH='/run/current-system/profile/lib/bash' GIT_EXEC_PATH_modshare='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/libexec/git-core:1' LINUX_MODULE_DIRECTORY='/run/booted-system/kernel/lib/modules' PKG_CONFIG_PATH_modshare='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/pkgconfig:1' _LMFILES__modshare='/etc/modules/spc:1' XCURSOR_PATH='/home/duck_killer/.icons:/home/duck_killer/.guix-profile/share/icons:/run/current-system/profile/share/icons' LIBRARY_PATH_modshare='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib:1' PYTHONPATH_modshare='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/python3.8/site-packages:1' MANPATH_modshare='/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/share/man:1:/run/current-system/profile/share/man:1:/home/duck_killer/.guix-profile/share/man:1:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/man:1' GTK_DATA_PREFIX='/run/current-system/profile' ENV='/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/init/profile.sh' PWD='/home/duck_killer/second_task/build' LOGNAME='duck_killer' MODULESHOME='/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1' MANPATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/man:/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/share/man:/run/current-system/profile/share/man:/home/duck_killer/.guix-profile/share/man:/run/current-system/profile/share/man' GUILE_LOAD_PATH='/run/current-system/profile/share/guile/site/3.0' C_INCLUDE_PATH_modshare='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/include:1' X_XFCE4_LIB_DIRS='/run/current-system/profile/lib/xfce4' GIT_EXEC_PATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/libexec/git-core' HOME='/home/duck_killer' GIT_SSL_CAINFO='/etc/ssl/certs/ca-certificates.crt' LANG='en_US.utf8' SSL_CERT_DIR='/etc/ssl/certs' GUILE_LOAD_COMPILED_PATH='/run/current-system/profile/lib/guile/3.0/site-ccache:/run/current-system/profile/share/guile/site/3.0' SSH_CONNECTION='77.222.98.242 58321 172.27.216.165 22' INFOPATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/info:/home/duck_killer/.config/guix/current/share/info:/run/current-system/profile/share/info:/home/duck_killer/.guix-profile/share/info:/run/current-system/profile/share/info' PATH_modshare='/home/duck_killer/.guix-profile/bin:1:/run/current-system/profile/bin:1:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/sbin:1:/run/setuid-programs:1:/home/duck_killer/.config/guix/current/bin:1:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/bin:1:/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/bin:1:/run/current-system/profile/sbin:1' DICPATH='/home/duck_killer/.guix-profile/share/hunspell:/run/current-system/profile/share/hunspell' MODULEPATH_modshare='/etc/modules:2' DBUS_FATAL_WARNINGS='0' LOADEDMODULES_modshare='spc:1' PYTHONPATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/python3.8/site-packages' TERM='xterm' CPLUS_INCLUDE_PATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/include/c++:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/include' USER='duck_killer' LIBRARY_PATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib' TZDIR='/gnu/store/pyk3skinp1f72afpd2xdjdi2j80xngr0-tzdata-2020a/share/zoneinfo' LOADEDMODULES='spc' SHLVL='1' BASH_ENV='/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/init/bash' GUIX_LOCPATH='/run/current-system/locale' EMACSLOADPATH_modshare='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/emacs/site-lisp:1:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/emacs/26.3/lisp:1' GST_PLUGIN_PATH='/home/duck_killer/.guix-profile/lib/gstreamer-1.0' CPLUS_INCLUDE_PATH_modshare='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/include/c++:1:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/include:1' LD_LIBRARY_PATH='/gnu/store/qc0l8h1akic4h1zwp3zg1wmxzvf8727r-ggg-1.9.0/lib' SSL_CERT_FILE='/etc/ssl/certs/ca-certificates.crt' INFOPATH_modshare='/run/current-system/profile/share/info:1:/home/duck_killer/.guix-profile/share/info:1:/home/duck_killer/.config/guix/current/share/info:1:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/info:1' SSH_CLIENT='77.222.98.242 58321 22' GST_PLUGIN_SYSTEM_PATH='/run/current-system/profile/lib/gstreamer-1.0' XDG_DATA_DIRS='/run/current-system/profile/share:/home/duck_killer/.guix-profile/share:/run/current-system/profile/share' PATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/bin:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/sbin:/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/bin:/run/setuid-programs:/home/duck_killer/.config/guix/current/bin:/home/duck_killer/.guix-profile/bin:/run/current-system/profile/bin:/run/current-system/profile/sbin' MODULEPATH='/etc/modules' _LMFILES_='/etc/modules/spc' C_INCLUDE_PATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/include' SSH_TTY='/dev/pts/0' EMACSLOADPATH='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/emacs/site-lisp:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/share/emacs/26.3/lisp' OLDPWD='/home/duck_killer/second_task' MODULES_CMD='/gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/libexec/modulecmd.tcl' BASH_FUNC_module%%='() {  _module_raw "$@" 2>&1
+}' BASH_FUNC__module_raw%%='() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre}/gnu/store/9jznxb2f5s46yr8fmppigiad0fyh4b4p-tcl-8.6.10/bin/tclsh /gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/gnu/store/9jznxb2f5s46yr8fmppigiad0fyh4b4p-tcl-8.6.10/bin/tclsh /gnu/store/k64sy08616rvivvqhsifk64lpcap54vq-modules-4.4.1/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}' _='/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/bin/meson' 
+
+1/1 vector_tests                            OK       0.01 s 
+
+--- command ---
+06:58:14 /home/duck_killer/second_task/build/src/vector/vector_test
+--- stdout ---
+Running main() from /tmp/guix-build-googletest-1.10.0.drv-0/source/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 8 tests from vector
+[ RUN      ] vector.push_back_test
+[       OK ] vector.push_back_test (0 ms)
+[ RUN      ] vector.pop_back_test
+[       OK ] vector.pop_back_test (0 ms)
+[ RUN      ] vector.erase
+[       OK ] vector.erase (0 ms)
+[ RUN      ] vector.begin_and_end
+[       OK ] vector.begin_and_end (0 ms)
+[ RUN      ] vector.construct_r_value
+[       OK ] vector.construct_r_value (0 ms)
+[ RUN      ] vector.construct_l_value
+[       OK ] vector.construct_l_value (0 ms)
+[ RUN      ] vector.operator_r_value
+[       OK ] vector.operator_r_value (0 ms)
+[ RUN      ] vector.operator_l_value
+[       OK ] vector.operator_l_value (0 ms)
+[----------] 8 tests from vector (0 ms total)
+
+[----------] 1 test from push_back_typed_test/0, where TypeParam = float
+[ RUN      ] push_back_typed_test/0.push_back
+[       OK ] push_back_typed_test/0.push_back (0 ms)
+[----------] 1 test from push_back_typed_test/0 (0 ms total)
+
+[----------] 1 test from push_back_typed_test/1, where TypeParam = std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+[ RUN      ] push_back_typed_test/1.push_back
+[       OK ] push_back_typed_test/1.push_back (0 ms)
+[----------] 1 test from push_back_typed_test/1 (0 ms total)
+
+[----------] 1 test from push_back_typed_test/2, where TypeParam = std::basic_ofstream<char, std::char_traits<char> >
+[ RUN      ] push_back_typed_test/2.push_back
+[       OK ] push_back_typed_test/2.push_back (0 ms)
+[----------] 1 test from push_back_typed_test/2 (0 ms total)
+
+[----------] 1 test from vector/Erase_test
+[ RUN      ] vector/Erase_test.vector/0
+[       OK ] vector/Erase_test.vector/0 (0 ms)
+[----------] 1 test from vector/Erase_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 5 test suites ran. (0 ms total)
+[  PASSED  ] 12 tests.
+-------
+
+
+Ok:                    1
+Expected Fail:         0
+Fail:                  0
+Unexpected Pass:       0
+Skipped:               0
+Timeout:               0
