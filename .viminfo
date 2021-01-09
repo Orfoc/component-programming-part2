@@ -11,16 +11,16 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<декодирует\>
+~MSle0~/\<декодирует\>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1609863918,,"x"
+|2,0,1610193346,,"x"
 :X
-|2,0,1609863606,,"X"
+|2,0,1609913907,,"X"
 :qa!
 |2,0,1609765227,,"qa!"
 :s
@@ -57,10 +57,10 @@ $
 |2,0,1603710063,,"e"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1609914312,,"@$"
 ? \<декодирует\>
 |2,1,1609858877,,"\\<декодирует\\>"
-? @$
-|2,1,1608028138,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -69,9 +69,9 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	v
-|3,0,0,0,1,0,1608028138,"v"
+""0	CHAR	0
+	-
+|3,1,0,0,1,0,1609914312,"-"
 "1	LINE	0
 	TEsT(base64, decode){
 |3,0,1,1,1,0,1609668746,"TEsT(base64, decode){"
@@ -84,235 +84,402 @@ $
 	  install:true
 	)
 |3,0,2,0,7,0,1608029360,"executable(","  'vector',","  include_directories : src,","  sources : prjct_src,","  dependencies:[],","  install:true",")"
-""-	CHAR	0
+"-	CHAR	0
 	-
-|3,1,36,0,1,0,1609765222,"-"
+|3,0,36,0,1,0,1609765222,"-"
 
 # File marks:
-'0  11  26  ~/base64/meson.build
-|4,48,11,26,1609863919,"~/base64/meson.build"
-'1  11  71  ~/base64/meson.build
-|4,49,11,71,1609863891,"~/base64/meson.build"
-'2  1  225  ~/base64/meson.build
-|4,50,1,225,1609863690,"~/base64/meson.build"
-'3  7  4  ~/base64/meson.build
-|4,51,7,4,1609863690,"~/base64/meson.build"
-'4  1  225  ~/base64/meson.build
-|4,52,1,225,1609863690,"~/base64/meson.build"
-'5  7  4  ~/base64/meson.build
-|4,53,7,4,1609863690,"~/base64/meson.build"
-'6  1  227  ~/base64/meson.build
-|4,54,1,227,1609863678,"~/base64/meson.build"
-'7  7  6  ~/base64/meson.build
-|4,55,7,6,1609863678,"~/base64/meson.build"
-'8  1  227  ~/base64/meson.build
-|4,56,1,227,1609863678,"~/base64/meson.build"
-'9  7  6  ~/base64/meson.build
-|4,57,7,6,1609863678,"~/base64/meson.build"
+'0  67  46  ~/second_task/src/vector/vector_test.cc
+|4,48,67,46,1610193347,"~/second_task/src/vector/vector_test.cc"
+'1  55  11  ~/second_task/src/vector/vector_test.cc
+|4,49,55,11,1610193239,"~/second_task/src/vector/vector_test.cc"
+'2  55  11  ~/second_task/src/vector/vector_test.cc
+|4,50,55,11,1610193239,"~/second_task/src/vector/vector_test.cc"
+'3  76  8  ~/second_task/src/vector/vector_test.cc
+|4,51,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
+'4  76  8  ~/second_task/src/vector/vector_test.cc
+|4,52,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
+'5  76  8  ~/second_task/src/vector/vector_test.cc
+|4,53,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
+'6  76  8  ~/second_task/src/vector/vector_test.cc
+|4,54,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
+'7  4  1  ~/fourth/src/vector/vector.cc
+|4,55,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+'8  5  0  ~/fourth/src/vector/main.cc
+|4,56,5,0,1609914421,"~/fourth/src/vector/main.cc"
+'9  3  6  ~/fourth/src/vector/vector.cc
+|4,57,3,6,1609914386,"~/fourth/src/vector/vector.cc"
 
 # Jumplist (newest first):
--'  11  26  ~/base64/meson.build
-|4,39,11,26,1609863919,"~/base64/meson.build"
--'  11  71  ~/base64/meson.build
-|4,39,11,71,1609863891,"~/base64/meson.build"
--'  1  225  ~/base64/meson.build
-|4,39,1,225,1609863700,"~/base64/meson.build"
--'  1  225  ~/base64/meson.build
-|4,39,1,225,1609863700,"~/base64/meson.build"
--'  7  4  ~/base64/meson.build
-|4,39,7,4,1609863690,"~/base64/meson.build"
--'  7  4  ~/base64/meson.build
-|4,39,7,4,1609863690,"~/base64/meson.build"
--'  7  6  ~/base64/meson.build
-|4,39,7,6,1609863678,"~/base64/meson.build"
--'  4  35  ~/base64/meson.build
-|4,39,4,35,1609863668,"~/base64/meson.build"
--'  4  35  ~/base64/meson.build
-|4,39,4,35,1609863668,"~/base64/meson.build"
--'  4  35  ~/base64/meson.build
-|4,39,4,35,1609863668,"~/base64/meson.build"
--'  4  35  ~/base64/meson.build
-|4,39,4,35,1609863609,"~/base64/meson.build"
--'  4  79  ~/base64/meson.build
-|4,39,4,79,1609863481,"~/base64/meson.build"
--'  1  0  ~/base64/meson.build
-|4,39,1,0,1609863329,"~/base64/meson.build"
--'  1  0  ~/base64/meson.build
-|4,39,1,0,1609863329,"~/base64/meson.build"
--'  1  0  ~/base64/meson.build
-|4,39,1,0,1609863329,"~/base64/meson.build"
--'  1  0  ~/base64/meson.build
-|4,39,1,0,1609863329,"~/base64/meson.build"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  470  27  ~/base64/doxygen_config
-|4,39,470,27,1609861680,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
--'  95  0  ~/base64/doxygen_config
-|4,39,95,0,1609861653,"~/base64/doxygen_config"
+-'  67  46  ~/second_task/src/vector/vector_test.cc
+|4,39,67,46,1610193347,"~/second_task/src/vector/vector_test.cc"
+-'  55  11  ~/second_task/src/vector/vector_test.cc
+|4,39,55,11,1610193323,"~/second_task/src/vector/vector_test.cc"
+-'  55  11  ~/second_task/src/vector/vector_test.cc
+|4,39,55,11,1610193239,"~/second_task/src/vector/vector_test.cc"
+-'  76  8  ~/second_task/src/vector/vector_test.cc
+|4,39,76,8,1610193223,"~/second_task/src/vector/vector_test.cc"
+-'  76  8  ~/second_task/src/vector/vector_test.cc
+|4,39,76,8,1610193223,"~/second_task/src/vector/vector_test.cc"
+-'  76  8  ~/second_task/src/vector/vector_test.cc
+|4,39,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
+-'  118  15  ~/second_task/src/vector/vector_test.cc
+|4,39,118,15,1610193094,"~/second_task/src/vector/vector_test.cc"
+-'  118  15  ~/second_task/src/vector/vector_test.cc
+|4,39,118,15,1610193094,"~/second_task/src/vector/vector_test.cc"
+-'  118  15  ~/second_task/src/vector/vector_test.cc
+|4,39,118,15,1610193094,"~/second_task/src/vector/vector_test.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  4  1  ~/fourth/src/vector/vector.cc
+|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  5  0  ~/fourth/src/vector/main.cc
+|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  9  0  ~/fourth/src/vector/main.cc
+|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  3  6  ~/fourth/src/vector/vector.cc
+|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  1  0  ~/fourth/src/vector/vector.cc
+|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
+-'  8  0  ~/fourth/build
+|4,39,8,0,1609914315,"~/fourth/build"
+-'  8  0  ~/fourth/build
+|4,39,8,0,1609914315,"~/fourth/build"
+-'  8  0  ~/fourth/build
+|4,39,8,0,1609914315,"~/fourth/build"
 
 # History of marks within files (newest to oldest):
+
+> ~/second_task/src/vector/vector_test.cc
+	*	1610193346	0
+	"	67	46
+	^	67	47
+	.	67	47
+	+	92	126
+	+	93	83
+	+	83	19
+	+	85	18
+	+	94	3
+	+	95	0
+	+	94	45
+	+	89	16
+	+	92	0
+	+	93	24
+	+	91	1
+	+	83	0
+	+	84	0
+	+	82	62
+	+	81	17
+	+	82	63
+	+	75	13
+	+	81	0
+	+	82	62
+	+	81	16
+	+	82	63
+	+	80	2
+	+	81	7
+	+	75	0
+	+	76	15
+	+	79	15
+	+	82	62
+	+	94	15
+	+	88	53
+	+	82	15
+	+	84	24
+	+	93	31
+	+	96	13
+	+	98	53
+	+	5	16
+	+	98	144
+	+	104	50
+	+	105	25
+	+	122	12
+	+	120	32
+	+	122	54
+	+	119	13
+	+	121	30
+	+	122	57
+	+	96	0
+	+	98	0
+	+	97	7
+	+	106	6
+	+	98	53
+	+	105	0
+	+	124	0
+	+	102	35
+	+	100	20
+	+	100	73
+	+	102	73
+	+	98	28
+	+	104	42
+	+	100	65
+	+	102	42
+	+	120	0
+	+	105	32
+	+	120	24
+	+	105	1
+	+	107	54
+	+	118	8
+	+	119	1
+	+	120	1
+	+	121	1
+	+	122	56
+	+	124	0
+	+	123	1
+	+	108	0
+	+	120	21
+	+	108	32
+	+	110	45
+	+	111	32
+	+	117	27
+	+	107	129
+	+	107	173
+	+	107	215
+	+	117	78
+	+	107	219
+	+	117	88
+	+	108	0
+	+	118	89
+	+	112	0
+	+	109	0
+	+	108	6
+	+	112	44
+	+	117	24
+	+	118	11
+	+	107	49
+	+	118	98
+	+	6	20
+	+	107	13
+	+	118	16
+	+	55	23
+	+	67	11
+	+	55	47
+	+	67	47
+
+> ~/fourth/src/vector/vector.cc
+	*	1609914471	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	1	16
+	+	3	6
+	+	4	1
+
+> ~/fourth/src/vector/main.cc
+	*	1609914419	0
+	"	5	0
+	^	9	1
+	.	9	0
+	+	1	26
+	+	7	22
+	+	9	0
+
+> ~/fourth/src/vector/meson.build
+	*	1609914296	0
+	"	11	16
+	^	11	17
+	.	12	27
+	+	4	24
+	+	12	26
+	+	11	16
+	+	12	34
+	+	14	26
+	+	16	0
+	+	7	0
+	+	12	27
+
+> ~/fourth/meson.build
+	*	1609913921	0
+	"	9	12
+	^	9	13
+	.	9	11
+	+	1	0
+	+	8	0
+	+	7	1
+	+	2	3
+	+	3	6
+	+	4	18
+	+	5	25
+	+	6	32
+	+	7	0
+	+	2	6
+	+	9	11
+
+> ~/fourth/src/vector/meson.buid
+	*	1609913472	0
+	"	1	0
+
+> ~/fourth/src/meson.build
+	*	1609913440	0
+	"	2	15
+	^	2	16
+	.	2	13
+	+	1	30
+	+	2	13
 
 > ~/base64/meson.build
 	*	1609863918	0
@@ -652,112 +819,6 @@ $
 	+	7	0
 	+	5	6
 	+	8	60
-
-> ~/second_task/src/vector/vector_test.cc
-	*	1609225084	0
-	"	118	15
-	^	118	16
-	.	118	16
-	+	92	129
-	+	92	55
-	+	92	101
-	+	92	0
-	+	92	126
-	+	93	83
-	+	83	19
-	+	85	18
-	+	94	3
-	+	95	0
-	+	94	45
-	+	89	16
-	+	92	0
-	+	93	24
-	+	91	1
-	+	83	0
-	+	84	0
-	+	82	62
-	+	81	17
-	+	82	63
-	+	75	13
-	+	81	0
-	+	82	62
-	+	81	16
-	+	82	63
-	+	80	2
-	+	81	7
-	+	75	0
-	+	76	15
-	+	79	15
-	+	82	62
-	+	94	15
-	+	88	53
-	+	82	15
-	+	84	24
-	+	93	31
-	+	96	13
-	+	98	53
-	+	5	16
-	+	98	144
-	+	104	50
-	+	105	25
-	+	122	12
-	+	120	32
-	+	122	54
-	+	119	13
-	+	121	30
-	+	122	57
-	+	96	0
-	+	98	0
-	+	97	7
-	+	106	6
-	+	98	53
-	+	105	0
-	+	124	0
-	+	102	35
-	+	100	20
-	+	100	73
-	+	102	73
-	+	98	28
-	+	104	42
-	+	100	65
-	+	102	42
-	+	120	0
-	+	105	32
-	+	120	24
-	+	105	1
-	+	107	54
-	+	118	8
-	+	119	1
-	+	120	1
-	+	121	1
-	+	122	56
-	+	124	0
-	+	123	1
-	+	108	0
-	+	120	21
-	+	108	32
-	+	110	45
-	+	111	32
-	+	117	27
-	+	107	129
-	+	107	173
-	+	107	215
-	+	117	78
-	+	107	219
-	+	117	88
-	+	108	0
-	+	118	89
-	+	112	0
-	+	109	0
-	+	108	6
-	+	112	44
-	+	117	24
-	+	118	11
-	+	107	49
-	+	118	98
-	+	6	20
-	+	107	13
-	+	118	16
 
 > ~/second_task/build/src/vector/vector_test
 	*	1609224950	0

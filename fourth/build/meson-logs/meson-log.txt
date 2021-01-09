@@ -1,0 +1,39 @@
+Build started at 2021-01-06T09:25:07.558401
+Main binary: /gnu/store/11l2qmzfgsp7k345mv6x1vn64q8330kw-python-wrapper-3.8.2/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/duck_killer/fourth
+Build dir: /home/duck_killer/fourth/build
+Build type: native build
+Project name: vector
+Project version: 0.1.0
+C++ compiler for the build machine: c++ (gcc 10.2.0 "c++ (GCC) 10.2.0")
+C++ linker for the build machine: c++ ld.bfd 2.34
+C++ compiler for the host machine: c++ (gcc 10.2.0 "c++ (GCC) 10.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency gtest found: YES 1.10.0 (cached)
+Adding test "vector"
+Build targets in project: 2
+
+Found ninja-1.10.0 at /gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/bin/ninja
+Running compile:
+Working directory:  /home/duck_killer/fourth/build/meson-private/tmpsnjvdzx_
+Command line:  c++ /home/duck_killer/fourth/build/meson-private/tmpsnjvdzx_/testfile.cpp -o /home/duck_killer/fourth/build/meson-private/tmpsnjvdzx_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/
+programs: =/gnu/store/xpdy9vvqym9xv7praqkwsm3gdzn2kv1p-gcc-10.2.0/libexec/gcc/x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/xpdy9vvqym9xv7praqkwsm3gdzn2kv1p-gcc-10.2.0/libexec/gcc/x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/xpdy9vvqym9xv7praqkwsm3gdzn2kv1p-gcc-10.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../../../../x86_64-unknown-linux-gnu/bin/x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../../../../x86_64-unknown-linux-gnu/bin/
+libraries: =/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../../../../x86_64-unknown-linux-gnu/lib/x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../../../../x86_64-unknown-linux-gnu/lib/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../x86_64-unknown-linux-gnu/10.2.0/:/gnu/store/qj38f3vi4q1d7z30hkpaxyajv49rwamb-gcc-10.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../:/gnu/store/fa6wj5bxkj5ll1d7292a70knmyl7a0cr-glibc-2.31/libx86_64-unknown-linux-gnu/10.2.0/:/gnu/store/fa6wj5bxkj5ll1d7292a70knmyl7a0cr-glibc-2.31/lib
+
+Compiler stderr:
+ 

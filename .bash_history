@@ -2689,3 +2689,160 @@ git remote -v
 git push origin main 
 ls
 exit 
+cd build/
+ninja docs
+cd src/
+meson test
+rm -r doc 
+meson --reconfigure build
+ninja
+cd build/
+ninja docs
+cd src/
+git
+git commit -m "first commit" 
+git remote -v
+git config --global user.email blabla5462@gmail.com
+git config --global user.name Orfoc
+git remote -v 
+LS
+module load spc 
+git commit "second"
+ды
+cd base64/
+help ls
+help help
+man
+man -k ls
+git commit "sec"
+git commit -a "aaa"
+git commit -a 
+git add base64/.git
+git add /base64/.git
+git commit "a"
+git commit -m "a"
+git push origin main 
+cd ..
+cd duck_killer/
+rm -r .git
+ls
+git init -b main
+git add .
+git commit -m "first"
+git remote add origin https://github.com/Orfoc/component-programming-part2.git
+git push origin main
+exit 
+cd html/
+doxygen help
+cd doc/
+ды
+vim doxygen_config_file
+doxygen doxygen_config_file
+rm doxygen_config_file
+rm doxygen_config_file.bak 
+rm -r html/
+rm -r latex/
+doxygen -g doxygen_config
+cvim src/base64/base64.hh 
+ks
+vim src/base64/base64.hh 
+vim doxygen_config 
+doxygen -u doxygen_config_file 
+doxygen doxygen_config 
+уучше
+exi
+LS
+cd base64/
+;s
+meson --reconfigure 
+meson test
+rm -r doc 
+ninja docs
+meson test
+rm -r doc 
+ninja docs
+LS
+module load spc 
+git
+git commit -m "first commit" 
+git remote -v
+git config --global user.email blabla5462@gmail.com
+git config --global user.name Orfoc
+git push origin main
+git init -b main
+git add .
+git commit -m "first"
+git remote add origin https://github.com/Orfoc/component-programming-part2.git
+git remote -v 
+git push origin main 
+ninja docs
+meson test
+rm -r doc 
+ninja docs
+git
+git commit -m "first commit" 
+git remote -v
+git config --global user.email blabla5462@gmail.com
+git config --global user.name Orfoc
+git remote -v 
+LS
+module load spc 
+git commit "second"
+ды
+cd base64/
+help ls
+help help
+man
+man -k ls
+git commit "sec"
+git commit -a "aaa"
+git commit -a 
+git add base64/.git
+git add /base64/.git
+git commit "a"
+git commit -m "a"
+git push origin main 
+cd duck_killer/
+rm -r .git
+git init -b main
+git add .
+git commit -m "first"
+git remote add origin https://github.com/Orfoc/component-programming-part2.git
+git push origin main
+mkdir fourth task
+module load spc
+mkdir src
+mkdir vector
+vim meson.buid
+vim meson.build
+cd task/
+rm task
+rm -r task
+cd second_task/
+cp vector_test.cc ~/fourth/src/vector/
+cd ~
+cd src/
+cd vector/
+vim main.cc
+meson . build 
+vim src/vector/
+vim src/vector/meson.build 
+meson --reconfigure
+cd src/vector/
+vim meson.build 
+meson . build
+meson --reconfigure build
+vim build/
+vim src/vector/vector.cc
+vim src/vector/main.cc 
+s
+vim src/vector/vector.cc 
+cd ..
+cd f
+cd fourth/
+ls
+cd build/
+ninja
+ninja test
+учше 
+exit 

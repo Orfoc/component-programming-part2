@@ -1,0 +1,6 @@
+# ninja log v5
+9	5168	1609916663582355655	src/vector/3f8b334@@vector_tests@exe/vector_test.cc.o	6dfceea5fb992fb0
+8	472	1609916727866252598	src/vector/vector_tests	a9c72b50b306a6b0
+7	1157	1609916820171848478	src/vector/3f8b334@@vector@exe/main.cc.o	41d9fe9cb11c5c7c
+1158	1437	1609916820483867275	src/vector/vector	68f523bbeff9b7ca
+6	505	0	meson-test	443d68b7da1da879

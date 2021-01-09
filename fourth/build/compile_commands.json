@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/home/duck_killer/fourth/build",
+    "command": "c++ -Isrc/vector/3f8b334@@vector@exe -Isrc/vector -I../src/vector -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++2a -g -MD -MQ 'src/vector/3f8b334@@vector@exe/main.cc.o' -MF 'src/vector/3f8b334@@vector@exe/main.cc.o.d' -o 'src/vector/3f8b334@@vector@exe/main.cc.o' -c ../src/vector/main.cc",
+    "file": "../src/vector/main.cc",
+    "output": "src/vector/3f8b334@@vector@exe/main.cc.o"
+  },
+  {
+    "directory": "/home/duck_killer/fourth/build",
+    "command": "c++ -Isrc/vector/3f8b334@@vector_tests@exe -Isrc/vector -I../src/vector -Isrc -I../src -I/gnu/store/ihnqnmni2z344q7snd9m68dhma0v37vf-profile/lib/pkgconfig/../../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++2a -g -Wl,--start-group -lpthread -Wl,--end-group -DGTEST_HAS_PTHREAD=1 -MD -MQ 'src/vector/3f8b334@@vector_tests@exe/vector_test.cc.o' -MF 'src/vector/3f8b334@@vector_tests@exe/vector_test.cc.o.d' -o 'src/vector/3f8b334@@vector_tests@exe/vector_test.cc.o' -c ../src/vector/vector_test.cc",
+    "file": "../src/vector/vector_test.cc",
+    "output": "src/vector/3f8b334@@vector_tests@exe/vector_test.cc.o"
+  }
+]
