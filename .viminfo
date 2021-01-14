@@ -18,7 +18,11 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1610193346,,"x"
+|2,0,1610615387,,"x"
+:exit
+|2,0,1610613854,,"exit"
+:qa
+|2,0,1610610950,,"qa"
 :X
 |2,0,1609913907,,"X"
 :qa!
@@ -27,16 +31,12 @@ $
 |2,0,1609764978,,"s"
 :help
 |2,0,1609759888,,"help"
-:exit
-|2,0,1609759881,,"exit"
 :quit
 |2,0,1609759878,,"quit"
 :exit 
 |2,0,1609759877,,"exit "
 :exi
 |2,0,1609582100,,"exi"
-:qa
-|2,0,1608969729,,"qa"
 :q
 |2,0,1608969726,,"q"
 :!x
@@ -58,7 +58,7 @@ $
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1609914312,,"@$"
+|2,1,1610613533,,"@$"
 ? \<декодирует\>
 |2,1,1609858877,,"\\<декодирует\\>"
 
@@ -69,9 +69,9 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	-
-|3,1,0,0,1,0,1609914312,"-"
+|3,0,0,0,1,0,1610613533,"-"
 "1	LINE	0
 	TEsT(base64, decode){
 |3,0,1,1,1,0,1609668746,"TEsT(base64, decode){"
@@ -84,341 +84,470 @@ $
 	  install:true
 	)
 |3,0,2,0,7,0,1608029360,"executable(","  'vector',","  include_directories : src,","  sources : prjct_src,","  dependencies:[],","  install:true",")"
-"-	CHAR	0
-	-
-|3,0,36,0,1,0,1609765222,"-"
+""-	CHAR	0
+	"
+|3,1,36,0,1,0,1610614316,"\""
 
 # File marks:
-'0  67  46  ~/second_task/src/vector/vector_test.cc
-|4,48,67,46,1610193347,"~/second_task/src/vector/vector_test.cc"
-'1  55  11  ~/second_task/src/vector/vector_test.cc
-|4,49,55,11,1610193239,"~/second_task/src/vector/vector_test.cc"
-'2  55  11  ~/second_task/src/vector/vector_test.cc
-|4,50,55,11,1610193239,"~/second_task/src/vector/vector_test.cc"
-'3  76  8  ~/second_task/src/vector/vector_test.cc
-|4,51,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
-'4  76  8  ~/second_task/src/vector/vector_test.cc
-|4,52,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
-'5  76  8  ~/second_task/src/vector/vector_test.cc
-|4,53,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
-'6  76  8  ~/second_task/src/vector/vector_test.cc
-|4,54,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
-'7  4  1  ~/fourth/src/vector/vector.cc
-|4,55,4,1,1609914472,"~/fourth/src/vector/vector.cc"
-'8  5  0  ~/fourth/src/vector/main.cc
-|4,56,5,0,1609914421,"~/fourth/src/vector/main.cc"
-'9  3  6  ~/fourth/src/vector/vector.cc
-|4,57,3,6,1609914386,"~/fourth/src/vector/vector.cc"
+'0  72  23  ~/second_task/src/vector/vector_test.cc
+|4,48,72,23,1610615387,"~/second_task/src/vector/vector_test.cc"
+'1  68  4  ~/second_task/src/vector/vector_test.cc
+|4,49,68,4,1610615143,"~/second_task/src/vector/vector_test.cc"
+'2  68  4  ~/second_task/src/vector/vector_test.cc
+|4,50,68,4,1610615143,"~/second_task/src/vector/vector_test.cc"
+'3  72  7  ~/second_task/src/vector/vector_test.cc
+|4,51,72,7,1610615103,"~/second_task/src/vector/vector_test.cc"
+'4  75  7  ~/second_task/src/vector/vector_test.cc
+|4,52,75,7,1610615103,"~/second_task/src/vector/vector_test.cc"
+'5  75  7  ~/second_task/src/vector/vector_test.cc
+|4,53,75,7,1610615103,"~/second_task/src/vector/vector_test.cc"
+'6  65  65  ~/base64/src/base64/base64_test.cc
+|4,54,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+'7  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,55,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+'8  64  28  ~/base64/src/base64/base64_test.cc
+|4,56,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+'9  64  28  ~/base64/src/base64/base64_test.cc
+|4,57,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
 
 # Jumplist (newest first):
--'  67  46  ~/second_task/src/vector/vector_test.cc
-|4,39,67,46,1610193347,"~/second_task/src/vector/vector_test.cc"
--'  55  11  ~/second_task/src/vector/vector_test.cc
-|4,39,55,11,1610193323,"~/second_task/src/vector/vector_test.cc"
--'  55  11  ~/second_task/src/vector/vector_test.cc
-|4,39,55,11,1610193239,"~/second_task/src/vector/vector_test.cc"
--'  76  8  ~/second_task/src/vector/vector_test.cc
-|4,39,76,8,1610193223,"~/second_task/src/vector/vector_test.cc"
--'  76  8  ~/second_task/src/vector/vector_test.cc
-|4,39,76,8,1610193223,"~/second_task/src/vector/vector_test.cc"
--'  76  8  ~/second_task/src/vector/vector_test.cc
-|4,39,76,8,1610193168,"~/second_task/src/vector/vector_test.cc"
--'  118  15  ~/second_task/src/vector/vector_test.cc
-|4,39,118,15,1610193094,"~/second_task/src/vector/vector_test.cc"
--'  118  15  ~/second_task/src/vector/vector_test.cc
-|4,39,118,15,1610193094,"~/second_task/src/vector/vector_test.cc"
--'  118  15  ~/second_task/src/vector/vector_test.cc
-|4,39,118,15,1610193094,"~/second_task/src/vector/vector_test.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  4  1  ~/fourth/src/vector/vector.cc
-|4,39,4,1,1609914472,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914466,"~/fourth/src/vector/vector.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  5  0  ~/fourth/src/vector/main.cc
-|4,39,5,0,1609914421,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  9  0  ~/fourth/src/vector/main.cc
-|4,39,9,0,1609914404,"~/fourth/src/vector/main.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  3  6  ~/fourth/src/vector/vector.cc
-|4,39,3,6,1609914386,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  1  0  ~/fourth/src/vector/vector.cc
-|4,39,1,0,1609914336,"~/fourth/src/vector/vector.cc"
--'  8  0  ~/fourth/build
-|4,39,8,0,1609914315,"~/fourth/build"
--'  8  0  ~/fourth/build
-|4,39,8,0,1609914315,"~/fourth/build"
--'  8  0  ~/fourth/build
-|4,39,8,0,1609914315,"~/fourth/build"
+-'  72  23  ~/second_task/src/vector/vector_test.cc
+|4,39,72,23,1610615387,"~/second_task/src/vector/vector_test.cc"
+-'  68  4  ~/second_task/src/vector/vector_test.cc
+|4,39,68,4,1610615284,"~/second_task/src/vector/vector_test.cc"
+-'  68  4  ~/second_task/src/vector/vector_test.cc
+|4,39,68,4,1610615143,"~/second_task/src/vector/vector_test.cc"
+-'  75  7  ~/second_task/src/vector/vector_test.cc
+|4,39,75,7,1610615132,"~/second_task/src/vector/vector_test.cc"
+-'  75  7  ~/second_task/src/vector/vector_test.cc
+|4,39,75,7,1610615103,"~/second_task/src/vector/vector_test.cc"
+-'  64  0  ~/second_task/src/vector/vector_test.cc
+|4,39,64,0,1610615025,"~/second_task/src/vector/vector_test.cc"
+-'  64  0  ~/second_task/src/vector/vector_test.cc
+|4,39,64,0,1610615025,"~/second_task/src/vector/vector_test.cc"
+-'  64  0  ~/second_task/src/vector/vector_test.cc
+|4,39,64,0,1610615025,"~/second_task/src/vector/vector_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  65  65  ~/base64/src/base64/base64_test.cc
+|4,39,65,65,1610614405,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614397,"~/base64/src/base64/base64_test.cc"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  99  0  ~/base64/build/meson-logs/testlog.txt
+|4,39,99,0,1610614389,"~/base64/build/meson-logs/testlog.txt"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  64  28  ~/base64/src/base64/base64_test.cc
+|4,39,64,28,1610614355,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614342,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  66  37  ~/base64/src/base64/base64_test.cc
+|4,39,66,37,1610614318,"~/base64/src/base64/base64_test.cc"
+-'  65  69  ~/base64/src/base64/base64_test.cc
+|4,39,65,69,1610614306,"~/base64/src/base64/base64_test.cc"
+-'  65  69  ~/base64/src/base64/base64_test.cc
+|4,39,65,69,1610614306,"~/base64/src/base64/base64_test.cc"
+-'  65  69  ~/base64/src/base64/base64_test.cc
+|4,39,65,69,1610614306,"~/base64/src/base64/base64_test.cc"
+-'  65  69  ~/base64/src/base64/base64_test.cc
+|4,39,65,69,1610614306,"~/base64/src/base64/base64_test.cc"
 
 # History of marks within files (newest to oldest):
 
 > ~/second_task/src/vector/vector_test.cc
-	*	1610193346	0
-	"	67	46
-	^	67	47
-	.	67	47
-	+	92	126
-	+	93	83
-	+	83	19
-	+	85	18
-	+	94	3
-	+	95	0
-	+	94	45
-	+	89	16
-	+	92	0
-	+	93	24
-	+	91	1
+	*	1610615369	0
+	"	72	23
+	^	72	24
+	.	73	0
+	+	84	62
+	+	83	17
+	+	84	63
+	+	77	13
 	+	83	0
-	+	84	0
-	+	82	62
-	+	81	17
-	+	82	63
-	+	75	13
-	+	81	0
-	+	82	62
-	+	81	16
-	+	82	63
-	+	80	2
-	+	81	7
-	+	75	0
-	+	76	15
-	+	79	15
-	+	82	62
-	+	94	15
-	+	88	53
-	+	82	15
-	+	84	24
-	+	93	31
-	+	96	13
-	+	98	53
+	+	84	62
+	+	83	16
+	+	84	63
+	+	82	2
+	+	83	7
+	+	77	0
+	+	78	15
+	+	81	15
+	+	84	62
+	+	96	15
+	+	90	53
+	+	84	15
+	+	86	24
+	+	95	31
+	+	98	13
+	+	100	53
 	+	5	16
-	+	98	144
-	+	104	50
-	+	105	25
-	+	122	12
-	+	120	32
-	+	122	54
-	+	119	13
-	+	121	30
-	+	122	57
-	+	96	0
+	+	100	144
+	+	106	50
+	+	107	25
+	+	124	12
+	+	122	32
+	+	124	54
+	+	121	13
+	+	123	30
+	+	124	57
 	+	98	0
-	+	97	7
-	+	106	6
-	+	98	53
-	+	105	0
-	+	124	0
-	+	102	35
-	+	100	20
-	+	100	73
-	+	102	73
-	+	98	28
-	+	104	42
-	+	100	65
-	+	102	42
-	+	120	0
-	+	105	32
-	+	120	24
-	+	105	1
-	+	107	54
-	+	118	8
-	+	119	1
-	+	120	1
-	+	121	1
-	+	122	56
-	+	124	0
-	+	123	1
-	+	108	0
-	+	120	21
-	+	108	32
-	+	110	45
-	+	111	32
-	+	117	27
-	+	107	129
-	+	107	173
-	+	107	215
-	+	117	78
-	+	107	219
-	+	117	88
-	+	108	0
-	+	118	89
-	+	112	0
-	+	109	0
+	+	100	0
+	+	99	7
 	+	108	6
-	+	112	44
-	+	117	24
-	+	118	11
-	+	107	49
-	+	118	98
+	+	100	53
+	+	107	0
+	+	126	0
+	+	104	35
+	+	102	20
+	+	102	73
+	+	104	73
+	+	100	28
+	+	106	42
+	+	102	65
+	+	104	42
+	+	122	0
+	+	107	32
+	+	122	24
+	+	107	1
+	+	109	54
+	+	120	8
+	+	121	1
+	+	122	1
+	+	123	1
+	+	124	56
+	+	126	0
+	+	125	1
+	+	110	0
+	+	122	21
+	+	110	32
+	+	112	45
+	+	113	32
+	+	119	27
+	+	109	129
+	+	109	173
+	+	109	215
+	+	119	78
+	+	109	219
+	+	119	88
+	+	110	0
+	+	120	89
+	+	114	0
+	+	111	0
+	+	110	6
+	+	114	44
+	+	119	24
+	+	120	11
+	+	109	49
+	+	120	98
 	+	6	20
-	+	107	13
-	+	118	16
+	+	109	13
+	+	120	16
 	+	55	23
-	+	67	11
+	+	68	43
 	+	55	47
-	+	67	47
+	+	68	79
+	+	70	1
+	+	68	89
+	+	63	9
+	+	62	17
+	+	68	26
+	+	68	69
+	+	69	17
+	+	68	0
+	+	62	17
+	+	69	17
+	+	68	38
+	+	69	0
+	+	73	0
+
+> ~/base64/src/base64/base64_test.cc
+	*	1610614404	0
+	"	65	65
+	^	65	66
+	.	65	65
+	+	94	1
+	+	96	65
+	+	99	0
+	+	98	34
+	+	98	33
+	+	99	40
+	+	111	2
+	+	102	62
+	+	103	67
+	+	105	0
+	+	103	0
+	+	101	4
+	+	106	7
+	+	3	18
+	+	104	20
+	+	93	18
+	+	93	22
+	+	106	42
+	+	107	1
+	+	108	0
+	+	107	40
+	+	109	38
+	+	110	1
+	+	111	0
+	+	110	41
+	+	107	4
+	+	111	2
+	+	112	1
+	+	122	11
+	+	125	0
+	+	120	27
+	+	74	27
+	+	76	11
+	+	75	33
+	+	76	55
+	+	77	0
+	+	76	13
+	+	77	11
+	+	75	0
+	+	77	13
+	+	76	16
+	+	77	23
+	+	78	1
+	+	122	15
+	+	124	7
+	+	122	28
+	+	124	29
+	+	125	2
+	+	127	0
+	+	89	0
+	+	80	27
+	+	80	55
+	+	6	15
+	+	80	122
+	+	84	0
+	+	82	58
+	+	80	63
+	+	84	40
+	+	85	63
+	+	87	0
+	+	83	7
+	+	93	24
+	+	85	10
+	+	102	1
+	+	103	1
+	+	104	1
+	+	80	74
+	+	82	34
+	+	80	138
+	+	96	65
+	+	103	68
+	+	81	0
+	+	82	67
+	+	90	0
+	+	124	70
+	+	124	86
+	+	124	69
+	+	72	0
+	+	64	29
+	+	65	43
+	+	66	32
+	+	68	62
+	+	69	70
+	+	70	27
+	+	63	1
+	+	71	1
+	+	63	0
+	+	65	40
+	+	66	36
+	+	65	26
+	+	65	38
+	+	65	34
+	+	65	91
+	+	65	71
+	+	66	0
+	+	65	18
+	+	66	36
+	+	65	69
+	+	66	37
+	+	65	65
+
+> ~/base64/build/meson-logs/testlog.txt
+	*	1610614387	0
+	"	99	0
+	^	78	5
+	.	78	5
+	+	78	5
+
+> ~/base64/build/vim
+	*	1610613851	0
+	"	1	0
+
+> ~/base64/bi
+	*	1610613526	0
+	"	1	0
+
+> ~/base64/src/base64/base64_
+	*	1610612838	0
+	"	1	0
+
+> /gnu/store/ax2k6rfz5is2mnlgcdwlicwpx2iimn96-vim-8.2.1145/share/vim/vim82/doc/help.txt
+	*	1610610947	0
+	"	94	0
 
 > ~/fourth/src/vector/vector.cc
 	*	1609914471	0
@@ -605,119 +734,6 @@ $
 	+	911	26
 	+	832	46
 	+	94	31
-
-> ~/base64/src/base64/base64_test.cc
-	*	1609766264	0
-	"	114	27
-	^	114	28
-	.	114	27
-	+	49	45
-	+	53	59
-	+	40	1
-	+	41	60
-	+	42	31
-	+	53	70
-	+	54	36
-	+	57	57
-	+	59	60
-	+	60	33
-	+	59	60
-	+	56	21
-	+	5	19
-	+	43	0
-	+	42	1
-	+	5	19
-	+	42	33
-	+	62	0
-	+	61	0
-	+	60	33
-	+	121	0
-	+	82	0
-	+	81	18
-	+	82	21
-	+	82	40
-	+	84	1
-	+	86	65
-	+	89	0
-	+	88	34
-	+	88	33
-	+	89	40
-	+	101	2
-	+	92	62
-	+	93	67
-	+	95	0
-	+	93	0
-	+	91	4
-	+	96	7
-	+	3	18
-	+	94	20
-	+	83	18
-	+	83	22
-	+	96	42
-	+	97	1
-	+	98	0
-	+	97	40
-	+	99	38
-	+	100	1
-	+	101	0
-	+	100	41
-	+	97	4
-	+	101	2
-	+	102	1
-	+	112	11
-	+	115	0
-	+	110	27
-	+	64	27
-	+	66	11
-	+	65	33
-	+	66	55
-	+	67	0
-	+	66	13
-	+	67	11
-	+	65	0
-	+	67	13
-	+	66	16
-	+	67	23
-	+	68	1
-	+	112	15
-	+	114	7
-	+	112	28
-	+	114	29
-	+	115	2
-	+	117	0
-	+	79	0
-	+	70	27
-	+	70	55
-	+	6	15
-	+	70	122
-	+	74	0
-	+	72	58
-	+	70	63
-	+	74	40
-	+	75	63
-	+	77	0
-	+	73	7
-	+	83	24
-	+	75	10
-	+	92	1
-	+	93	1
-	+	94	1
-	+	70	74
-	+	72	34
-	+	70	138
-	+	86	65
-	+	93	68
-	+	71	0
-	+	72	67
-	+	80	0
-	+	114	27
-
-> ~/base64/build/meson-logs/testlog.txt
-	*	1609765226	0
-	"	78	4
-	^	78	5
-	.	78	5
-	+	78	5
 
 > /gnu/store/xv2q6yww993dv69af20f0c34yz0ygpqi-vim-full-8.2.1145/share/vim/vim82/doc/help.txt
 	*	1609759927	0
@@ -1042,10 +1058,6 @@ $
 	+	6	36
 	+	8	13
 	+	6	35
-
-> /gnu/store/ax2k6rfz5is2mnlgcdwlicwpx2iimn96-vim-8.2.1145/share/vim/vim82/doc/help.txt
-	*	1603710093	0
-	"	15	0
 
 > ~/second/src/second_task/meson.build
 	*	1603709367	0

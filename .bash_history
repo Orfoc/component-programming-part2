@@ -2846,3 +2846,66 @@ ninja
 ninja test
 учше 
 exit 
+cd src/
+cd vector/
+vim main.cc
+meson . build 
+vim src/vector/
+vim src/vector/meson.build 
+meson --reconfigure
+cd src/vector/
+vim meson.build 
+meson . build
+meson --reconfigure build
+vim build/
+vim src/vector/vector.cc
+vim src/vector/main.cc 
+s
+vim src/vector/vector.cc 
+cd f
+cd fourth/
+ninja
+ninja test
+учше 
+exit 
+LS
+cd second_task/
+module load spc
+cd .
+cd..
+vim src/vector/vector_test.cc 
+cd build/
+meson test
+cd ..
+git add /
+git add .
+git commit -m "edited second"
+git push origin
+ls
+git push origin master 
+git remote show origin
+git push
+git push origin main
+учше
+exit
+git push origin main
+учше
+exit
+ды
+cd second_task/
+vim src/vector/vector_test.cc 
+;s
+ls
+cd build/
+module load spc 
+meson test
+exit 
+cd build/
+module load spc 
+meson test
+exit 
+ды
+cd src/
+cd base64/
+ls
+vim base64_test.cc 

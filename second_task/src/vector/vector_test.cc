@@ -59,13 +59,15 @@ TEST(vector, construct_l_value){
 }
 
 TEST(vector, operator_r_value){
-	std::vector<int> a = get_r_value_vector();
+	std::vector<int> a;
+       	a = get_r_value_vector();
 
 	EXPECT_EQ(get_r_value_vector(), a);
 }
 TEST(vector, operator_l_value){
-	const std::vector<int>& l_vector = {1,2,3,4,5};
-	std::vector<int> a = l_vector;
+	std::vector<int> l_vector = {1,2,3,4};
+	std::vector<int> a; 
+	a = l_vector;
 	
 	EXPECT_EQ(l_vector, a);
 }

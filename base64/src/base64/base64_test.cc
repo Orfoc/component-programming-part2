@@ -61,6 +61,16 @@ TEST(base64, encode_decode_rem2){
 	EXPECT_EQ(start_string, decoded);
 }
 
+TEST(base64, decode_last_if){
+	std::string answer{"koll" + std::string{char(0)} + std::string{"5"}};
+	std::string start_string = "a29sbA=1";
+	std::string decoded;
+	decoded.resize(base64_max_decoded_size(start_string.size()));
+	base64_decode(start_string.data(), start_string.size(), &decoded[0]);
+	EXPECT_EQ(answer, decoded);
+}
+
+
 TEST(base64, decode_len_0){
 	std::string encoded = "", result;
 	auto returned = base64_decode(encoded.data(), encoded.size(), &result[0]);
